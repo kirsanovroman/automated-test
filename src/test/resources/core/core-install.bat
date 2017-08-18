@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=sapoui-core-1.0.jar -DgroupId=sap.ui.automating -DartifactId=sapoui-core -Dversion=1.0 -Dpackaging=jar

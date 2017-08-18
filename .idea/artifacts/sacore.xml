@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="sacore">
+    <output-path>$PROJECT_DIR$/classes/artifacts/sacore</output-path>
+    <root id="archive" name="sacore.jar" />
+  </artifact>
+</component>
