@@ -25,14 +25,14 @@ public class SeleniumTest extends BaseTestClass {
 
         String login = "admin";
         String password = "admin";
-        driver.get ("http://localhost:8888/");
-        driver.findElement(By.xpath("//*[@id=\"login\"]")).sendKeys(login);
+        driver.get ("http://lenta.ru");
+//        driver.findElement(By.xpath("//a[@href=\"/auth/signin/\"]")).sendKeys(login);
         Thread.sleep(2000);
-        driver.findElement(By.id("password")).sendKeys(password);
-        Thread.sleep(2000);
-        driver.findElement(By.id("check")).click();
-        Thread.sleep(5000);
-        driver.findElement(By.id("enter")).click();
+//        driver.findElement(By.id("password")).sendKeys(password);
+//        Thread.sleep(2000);
+//        driver.findElement(By.id("check")).click();
+//        Thread.sleep(5000);
+//        driver.findElement(By.id("enter")).click();
 
 
 

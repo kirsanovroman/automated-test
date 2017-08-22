@@ -186,7 +186,7 @@
           <source>1.6</source>
           <target>1.6</target>
           <fork>true</fork>
-          <executable>C:\Program Files\Java\jdk1.8.0_131\bin\javac.exe</executable>
+          <executable>C:\Program Files\Java\jdk1.8.0_144\bin\javac.exe</executable>
           <encoding>UTF-8</encoding>
         </configuration>
         <dependencies>
