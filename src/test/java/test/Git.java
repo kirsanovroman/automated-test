@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 /**
  * Created by kirsanov_rd on 18.08.2017.
  */
-public class GitTest extends BaseTestClass {
+public class Git extends BaseTestClass {
     @Test
     void gitTest() throws InterruptedException {
         driver.get ("https://git-scm.com");
