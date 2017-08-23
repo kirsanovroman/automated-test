@@ -134,12 +134,12 @@
   </dependencies>
   <build>
 
-    <!--<testResources>-->
-      <!--<testResource>-->
-        <!--<directory>src/test/core.resources/testng.xml</directory>-->
-        <!--<filtering>true</filtering>-->
-      <!--</testResource>-->
-    <!--</testResources>-->
+    <testResources>
+      <testResource>
+        <directory>src/test/core.resources/testng.xml</directory>
+        <filtering>true</filtering>
+      </testResource>
+    </testResources>
     <plugins>
 
 
