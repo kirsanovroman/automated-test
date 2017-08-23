@@ -134,12 +134,12 @@
   </dependencies>
   <build>
 
-    <testResources>
-      <testResource>
-        <directory>src/test/core.resources/testng.xml</directory>
-        <filtering>true</filtering>
-      </testResource>
-    </testResources>
+    <!--<testResources>-->
+      <!--<testResource>-->
+        <!--<directory>src/test/core.resources/testng.xml</directory>-->
+        <!--<filtering>true</filtering>-->
+      <!--</testResource>-->
+    <!--</testResources>-->
     <plugins>
 
 
@@ -186,7 +186,7 @@
           <source>1.6</source>
           <target>1.6</target>
           <fork>true</fork>
-          <executable>C:\Program Files\Java\jdk1.8.0_144\bin\javac.exe</executable>
+          <executable>C:\Program Files\Java\jdk1.8.0_131\bin\javac.exe</executable>
           <encoding>UTF-8</encoding>
         </configuration>
         <dependencies>
@@ -205,9 +205,9 @@
         <configuration>
           <argLine>-Xms256m -Xmx512m -ea -Dfile.encoding=UTF-8 -XX:MaxPermSize=128m</argLine>
           <argLine>-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"</argLine>
-          <suiteXmlFiles>
-            <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
-          </suiteXmlFiles>
+          <!--<suiteXmlFiles>-->
+            <!--<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>-->
+          <!--</suiteXmlFiles>-->
           <!--properties>
             <property>
               <name>listener</name>
