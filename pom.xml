@@ -205,9 +205,9 @@
         <configuration>
           <argLine>-Xms256m -Xmx512m -ea -Dfile.encoding=UTF-8 -XX:MaxPermSize=128m</argLine>
           <argLine>-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"</argLine>
-          <!--<suiteXmlFiles>-->
-            <!--<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>-->
-          <!--</suiteXmlFiles>-->
+          <suiteXmlFiles>
+            <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+          </suiteXmlFiles>
           <!--properties>
             <property>
               <name>listener</name>
